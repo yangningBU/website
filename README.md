@@ -1,6 +1,8 @@
-# ![Y?-Icon](https://user-images.githubusercontent.com/4258357/44061879-26076ba6-9f28-11e8-99f7-4d298bba6e14.png|width=100) Yonatan Laurence
+# ![Y?-Icon](https://s3-us-west-2.amazonaws.com/yonatanlaurence.com/Y-2018.08.25.png|width=100) Yonatan Laurence
 
-Website App
+Website App at www.yonatanlaurence.com
+
+Created with [Preact](https://github.com/developit/preact-cli)
 
 ## CLI Commands
 
