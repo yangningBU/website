@@ -1,0 +1,18 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.project {
+  display: flex;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  width: 4em;
+  height: 6em;
+  margin: 10px;
+  text-decoration: none;
+}
