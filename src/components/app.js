@@ -14,26 +14,26 @@ import { faPaperPlane, faFilePdf, faVolumeUp } from '@fortawesome/free-solid-svg
 library.add(fab, faPaperPlane, faFilePdf, faVolumeUp);
 
 export default class App extends Component {
-	
-	/** Gets fired when the route changes.
-	 *	@param {Object} event		"change" event from [preact-router](http://git.io/preact-router)
-	 *	@param {string} event.url	The newly routed URL
-	 */
-	handleRoute = e => {
-		this.currentUrl = e.url;
-	};
+  
+  /** Gets fired when the route changes.
+   *  @param {Object} event      "change" event from [preact-router](http://git.io/preact-router)
+   *  @param {string} event.url  The newly routed URL
+   */
+  handleRoute = e => {
+    this.currentUrl = e.url;
+  };
 
-	// <Profile path="/profile/" user="me" />
-	// <Profile path="/profile/:user" />
+  // <Profile path="/profile/" user="me" />
+  // <Profile path="/profile/:user" />
 
-	render() {
-		return (
-			<div id="app">
-				<Router onChange={this.handleRoute}>
-					<Home path="/" />
-					<Project path="/project/:letter" />
-				</Router>
-			</div>
-		);
-	}
+  render() {
+    return (
+      <div id="app">
+        <Router onChange={this.handleRoute}>
+          <Home path="/" />
+          <Project path="/project/:letter" />
+        </Router>
+      </div>
+    );
+  }
 }
