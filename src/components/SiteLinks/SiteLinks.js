@@ -19,25 +19,25 @@ const SiteLinks = () => (
   <ul class={style.links}>
     <li>
       <a href="mailto:laurence0521@gmail.com" target="_alt">
-        <Icon icon="envelope-square" color="#4688F1"/>
+        <Icon icon="paper-plane"/>
         Email
       </a>
     </li>
     <li>
       <a href="https://github.com/yangningBU" target="_alt">
-        <Icon icon={["fab", "github"]} color="#24292E"/>
+        <Icon icon={["fab", "github"]}/>
         Github
       </a>
     </li>
     <li>
       <a href="https://www.linkedin.com/in/yonatan-laurence/" target="_alt">
-        <Icon icon={["fab", "linkedin"]} color="#1178B3"/>
+        <Icon icon={["fab", "linkedin"]}/>
         LinkedIn
       </a>
     </li>
     <li>
-      <a href="#" onClick={(e) => openPDF(e)} target="download">
-        <Icon icon="file-pdf" color="#CC202D"/>
+      <a href="#" onClick={openPDF} target="download">
+        <Icon icon="file-pdf"/>
         Resume
       </a>
     </li>

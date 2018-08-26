@@ -10,8 +10,8 @@ import Project from '../routes/project';
 // Instantiate icon library
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelopeSquare, faFilePdf, faVolumeUp } from '@fortawesome/free-solid-svg-icons';
-library.add(fab, faEnvelopeSquare, faFilePdf, faVolumeUp);
+import { faPaperPlane, faFilePdf, faVolumeUp } from '@fortawesome/free-solid-svg-icons';
+library.add(fab, faPaperPlane, faFilePdf, faVolumeUp);
 
 export default class App extends Component {
 	

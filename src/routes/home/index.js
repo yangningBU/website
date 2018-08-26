@@ -16,28 +16,20 @@ const s = {
   },
   typewriter: {
     width: '100px'
-  },
-  coffee: {
-    width: '90px',
-    marginRight: '10px'
   }
 }
 
 const Home = () => (
-	<div class={style.home}>
-		<h1>Call me <span style={{textDecoration: 'underline', textDecorationStyle: 'dotted'}}>Yonatan</span></h1>
-    <p class={style.pronunciation}>/YO-nah-tan/ <FontAwesomeIcon icon='volume-up'/></p>
-		<p class={style.tagline}>I build technical solutions that begin with the user experience.</p>
-    <SiteLinks />
-    <br/>
-    <br/>
-    <h3 style={s.wrapper}><img src={Typewriter} alt="black and white sketch of a typewriter" style={s.typewriter}/> Sample Projects</h3>
-    <ProjectLinks/>
-    <h3 style={s.wrapper} class={style.tagline}>
-      <img src={CoffeeCup} alt="black and white sketch of a steaming cup of coffee" style={s.coffee}/>Coffee Talk
+  <div class={style.home}>
+    <h1>Call me Yonatan</h1>
+    <p class={style.pronunciation}>(/YO-nah-tah-n/)</p>
+    <h3 style={s.wrapper}>
+      <img src={Typewriter} alt="black and white sketch of a typewriter" style={s.typewriter}/>
+      Sample Projects
     </h3>
-    <p>I believe in a 2-space indent, doing the dishes, and the Oxford Comma.</p>
-	</div>
+    <ProjectLinks/>
+    <SiteLinks />
+  </div>
 );
 
 export default Home;
