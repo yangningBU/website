@@ -18,7 +18,7 @@ const openPDF = (event) => {
 const SiteLinks = () => (
   <ul class={style.links}>
     <li>
-      <a href="mailto:laurence0521@gmail.com" target="_alt">
+      <a href="mailto:yonatanlaurence@gmail.com" target="_alt">
         <Icon icon="paper-plane"/>
         Email
       </a>
