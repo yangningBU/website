@@ -9,6 +9,9 @@
   font-size: .85em;
   margin: 5px;
 }
+.links li:hover {
+  color: rgb(20,198,221);
+}
 .links li a, .links li a:hover, .links li a:visited {
   text-decoration: none;
   color: inherit;
@@ -22,5 +25,11 @@
 @media(min-width: 400px) {
   .links {
     justify-content: center;
+  }
+  .links li {
+    margin-right: 1.5em;
+  }
+  .links li:last {
+    margin-right: 0;
   }
 }
