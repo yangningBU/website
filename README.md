@@ -1,8 +1,5 @@
-# <img align="left" width="100" height="100" alt="Y? Icon" src="https://s3-us-west-2.amazonaws.com/yonatanlaurence.com/Y-2018.08.25.png"> Yonatan Laurence
+# <img align="left" width="100" height="100" alt="Spinning Wheel Icon" src="https://s3-us-west-2.amazonaws.com/yonatanlaurence.com/spinning-wheel-2018.09.05.png"> Yonatan Laurence
 Website App at www.yonatanlaurence.com
-
-
-Created with [Preact](https://github.com/developit/preact-cli)
 
 ## CLI Commands
 
@@ -22,3 +19,4 @@ npm run serve
 # run tests with jest and preact-render-spy 
 npm run test
 ```
+Created with [Preact](https://github.com/developit/preact-cli)
