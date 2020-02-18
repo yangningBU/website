@@ -20,3 +20,10 @@ npm run serve
 npm run test
 ```
 Created with [Preact](https://github.com/developit/preact-cli)
+
+## Deploy to Heroku
+```bash
+git push heroku master
+
+heroku open
+```
