@@ -9,13 +9,6 @@
   font-size: .85em;
   margin: 5px;
 }
-.links li:hover {
-  color: rgb(20,200,220);
-}
-.links li a, .links li a:hover, .links li a:visited {
-  text-decoration: none;
-  color: inherit;
-}
 .links li a {
   display: flex;
   flex-direction: column;

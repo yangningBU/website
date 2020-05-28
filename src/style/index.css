@@ -21,3 +21,12 @@ html, body {
 #app {
   height: 100%;
 }
+
+a, a:hover, a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: rgb(20,200,220);
+  cursor: pointer;
+}
