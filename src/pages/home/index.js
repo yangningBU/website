@@ -34,7 +34,7 @@ const Home = () => (
   <div class={style.home}>
     <Header/>
     <div class="flex-center">
-      <a href="https://opposition.services" target="_alt">
+      <a href="https://opposition.services">
         <img src={Typewriter} alt="typewriter" style={s.typewriter}/>
       </a>
     </div>

@@ -18,19 +18,19 @@ const openPDF = (event) => {
 const SiteLinks = () => (
   <ul class={style.links}>
     <li>
-      <a href="mailto:yonatanlaurence@gmail.com" target="_alt">
+      <a href="mailto:yonatanlaurence@gmail.com">
         <Icon icon="paper-plane"/>
         Email
       </a>
     </li>
     <li>
-      <a href="https://github.com/yangningBU" target="_alt">
+      <a href="https://github.com/yangningBU">
         <Icon icon={["fab", "github"]}/>
         Github
       </a>
     </li>
     <li>
-      <a href="https://www.linkedin.com/in/yonatan-laurence/" target="_alt">
+      <a href="https://www.linkedin.com/in/yonatan-laurence/">
         <Icon icon={["fab", "linkedin"]}/>
         LinkedIn
       </a>
