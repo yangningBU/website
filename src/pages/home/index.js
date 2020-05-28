@@ -1,4 +1,4 @@
-import { h, Component } from 'preact';
+import { h } from 'preact';
 import SiteLinks from '../../components/SiteLinks/SiteLinks';
 import Typewriter from '../../assets/images/typewriter.png';
 import style from './style';
@@ -33,7 +33,7 @@ const Header = () => {
 const Home = () => (
   <div class={style.home}>
     <Header/>
-    <div>
+    <div class="flex-center">
       <a href="https://opposition.services" target="_alt">
         <img src={Typewriter} alt="typewriter" style={s.typewriter}/>
       </a>

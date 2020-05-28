@@ -1,11 +1,9 @@
 import { h, Component } from 'preact';
 import { Router } from 'preact-router';
 
-import Header from './header';
-
-// Code-splitting is automated for routes
-import Home from '../routes/home';
-import Project from '../routes/project';
+// Code-splitting is automated for pages
+import Home from '../pages/home';
+import Fallback from '../pages/fallback';
 
 // Instantiate icon library
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -23,15 +21,12 @@ export default class App extends Component {
     this.currentUrl = e.url;
   };
 
-  // <Profile path="/profile/" user="me" />
-  // <Profile path="/profile/:user" />
-
   render() {
     return (
       <div id="app">
         <Router onChange={this.handleRoute}>
           <Home path="/" />
-          <Project path="/project/:letter" />
+          <Fallback default/>
         </Router>
       </div>
     );

@@ -30,3 +30,9 @@ a:hover {
   color: rgb(20,200,220);
   cursor: pointer;
 }
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
