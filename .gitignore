@@ -2,5 +2,7 @@ node_modules
 /build
 /*.log
 *.lock
-
+.DS_Store
+*.swp
+*.swo
 package-lock.json
