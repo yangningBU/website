@@ -1,9 +1,5 @@
 {
   "private": true,
-  "engines": {
-    "npm": "6.13.4",
-    "node": "12.16.0"
-  },
   "name": "website",
   "version": "0.0.0",
   "license": "MIT",
