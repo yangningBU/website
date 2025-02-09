@@ -26,8 +26,8 @@ npm run test
 
 
 ## Deploy to Heroku
-```bash
-git push heroku master
+Heroku automatically builds master b/c it's connected to Github directly.
 
-heroku open
+```bash
+git push origin master
 ```
