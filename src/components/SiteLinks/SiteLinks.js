@@ -12,7 +12,7 @@ const Icon = (props) => {
 
 const openPDF = (event) => {
   event.preventDefault();
-  window.open('/assets/files/28d_YonatanLaurence_Resume_2025_06_09.pdf');
+  window.open('/assets/files/30d_YonatanLaurence_Resume_2025_06_09.pdf');
 }
 
 const SiteLinks = () => (
