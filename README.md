@@ -1,4 +1,4 @@
-# <img align="left" width="100" height="100" alt="Spinning Wheel Icon" src="https://s3.us-west-2.amazonaws.com/yonatanlaurence.com/crystal-logo-raspberry-cream-2022_07_20.png"> Yonatan Laurence
+# <img align="left" width="100" height="100" alt="Pink Crystal Icon" src="https://s3.us-west-2.amazonaws.com/yonatanlaurence.com/crystal-logo-raspberry-cream-2022_07_20.png"> Yonatan Laurence
 Website App at www.yonatanlaurence.com
 
 I went from $12/mo to $7/mo and managing almost no infrastructure when moving from AWS EC2 to Heroku. The custom domain required moving from Free to Hobby (hence the $7).
