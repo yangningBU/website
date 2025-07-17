@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Indie+Flower|Muli');
+@import url('../style/fonts.css');
 
 html, body {
   height: 100%;
@@ -18,6 +18,10 @@ html, body {
   box-sizing: border-box;
 }
 
+:root {
+  --crystal-pink: #D486B8;
+}
+
 #app {
   height: 100%;
 }
@@ -26,8 +30,13 @@ a, a:hover, a:visited {
   text-decoration: none;
   color: inherit;
 }
+
+a {
+  color: #444;
+}
+
 a:hover {
-  color: #D486B8;
+  color: var(--crystal-pink);
   cursor: pointer;
 }
 

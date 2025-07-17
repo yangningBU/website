@@ -7,7 +7,7 @@
 .links li {
   list-style: none;
   font-size: .85em;
-  margin: 5px;
+  margin: 0.5rem 1rem;
 }
 .links li a {
   display: flex;
@@ -18,11 +18,5 @@
 @media(min-width: 400px) {
   .links {
     justify-content: center;
-  }
-  .links li {
-    margin-right: 1.5em;
-  }
-  .links li:last {
-    margin-right: 0;
   }
 }
