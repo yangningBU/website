@@ -4,9 +4,10 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "[ $NODE_ENV = production ] && npm run -s serve || npm run -s dev",
+    "heroku-postbuild": "npm run build",
+    "start": "[ $NODE_ENV = production ] && npm run serve || npm run dev",
     "build": "preact build",
-    "serve": "preact build && preact serve",
+    "serve": "serve -s build",
     "dev": "preact watch",
     "lint": "eslint src",
     "test": "jest ./tests"
@@ -35,7 +36,8 @@
     "preact": "^8.2.6",
     "preact-cli": "^2.1.0",
     "preact-compat": "^3.17.0",
-    "preact-router": "^2.5.7"
+    "preact-router": "^2.5.7",
+    "serve": "^14.2.4"
   },
   "jest": {
     "verbose": true,
