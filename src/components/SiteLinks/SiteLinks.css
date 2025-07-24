@@ -3,11 +3,13 @@
   flex-wrap: wrap;
   justify-content: center;
   padding: 0;
+  margin-top: 0;
 }
 .links li {
   list-style: none;
   font-size: .85em;
-  margin: 0.5rem 1rem;
+  margin: 1rem 1rem;
+  width: 65px;
 }
 .links li a {
   display: flex;
