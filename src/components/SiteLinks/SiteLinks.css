@@ -5,14 +5,41 @@
   padding: 0;
   margin-top: 0;
 }
+
 .links li {
   list-style: none;
-  font-size: .85em;
+  font-size: 1em;
   margin: 1rem 1rem;
   width: 65px;
 }
+
 .links li a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: var(--crystal-pink);
+}
+
+.links li a .label {
+  color: var(--grey);
+}
+
+.links li a svg {
+  margin-bottom: 0.5rem;
+}
+
+.links li a:hover .label {
+  color: var(--crystal-pink);
+}
+
+@media screen and (min-width: 350px) {
+  .links {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .links {
+    width: 420px;
+  }
 }

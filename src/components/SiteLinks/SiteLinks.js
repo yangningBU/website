@@ -20,25 +20,25 @@ const SiteLinks = () => (
     <li>
       <a href="mailto:yonatanlaurence@gmail.com">
         <Icon icon="paper-plane"/>
-        Email
+        <span class={style.label}>Email</span>
       </a>
     </li>
     <li>
       <a href="https://github.com/yangningBU">
         <Icon icon={["fab", "github"]}/>
-        Github
+        <span class={style.label}>Github</span>
       </a>
     </li>
     <li>
       <a href="https://www.linkedin.com/in/yonatan-laurence/">
         <Icon icon={["fab", "linkedin"]}/>
-        LinkedIn
+        <span class={style.label}>LinkedIn</span>
       </a>
     </li>
     <li>
       <a href="#" onClick={openPDF} target="download">
         <Icon icon="file-pdf"/>
-        Resume
+        <span class={style.label}>Resume</span>
       </a>
     </li>
   </ul>
