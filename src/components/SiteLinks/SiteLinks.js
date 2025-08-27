@@ -4,44 +4,42 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const iconStyle = {
   fontSize: '2em'
-}
+};
 
-const Icon = (props) => {
-  return <FontAwesomeIcon style={iconStyle} {...props} />;
-}
+const Icon = (props) => <FontAwesomeIcon style={iconStyle} {...props} />;
 
 const openPDF = (event) => {
   event.preventDefault();
   window.open('/assets/files/30f_YonatanLaurence_Resume_2025_07_20.pdf');
-}
+};
 
 const SiteLinks = () => (
   <ul class={style.links}>
     <li>
       <a href="mailto:yonatanlaurence@gmail.com">
-        <Icon icon="paper-plane"/>
+        <Icon icon="paper-plane" />
         <span class={style.label}>Email</span>
       </a>
     </li>
     <li>
       <a href="https://github.com/yangningBU">
-        <Icon icon={["fab", "github"]}/>
+        <Icon icon={['fab', 'github']} />
         <span class={style.label}>Github</span>
       </a>
     </li>
     <li>
       <a href="https://www.linkedin.com/in/yonatan-laurence/">
-        <Icon icon={["fab", "linkedin"]}/>
+        <Icon icon={['fab', 'linkedin']} />
         <span class={style.label}>LinkedIn</span>
       </a>
     </li>
     <li>
       <a href="#" onClick={openPDF} target="download">
-        <Icon icon="file-pdf"/>
+        <Icon icon="file-pdf" />
         <span class={style.label}>Resume</span>
       </a>
     </li>
   </ul>
-)
+);
 
 export default SiteLinks;

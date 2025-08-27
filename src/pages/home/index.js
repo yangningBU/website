@@ -6,7 +6,7 @@ import style from './style';
 const Home = () => (
   <div class="home">
     <div class="flex-center">
-      <img src={Crystal} alt="pink crystal logo" class="logo"/>
+      <img src={Crystal} alt="pink crystal logo" class="logo" />
     </div>
     <h1>Yonatan | yony</h1>
     <SiteLinks />
