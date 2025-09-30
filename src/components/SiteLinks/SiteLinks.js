@@ -10,7 +10,7 @@ const Icon = (props) => <FontAwesomeIcon style={iconStyle} {...props} />;
 
 const openPDF = (event) => {
   event.preventDefault();
-  window.open('/assets/files/30f_YonatanLaurence_Resume_2025_07_20.pdf');
+  window.open('/assets/files/30g_YonatanLaurence_Resume_2025_09_30.pdf');
 };
 
 const SiteLinks = () => (
