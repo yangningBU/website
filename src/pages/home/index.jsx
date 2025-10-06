@@ -1,7 +1,6 @@
-import { h } from 'preact';
-import SiteLinks from '../../components/SiteLinks/SiteLinks';
-import Crystal from '../../assets/images/crystal.svg';
-import './style';
+import SiteLinks from '../../components/SiteLinks.jsx';
+import Crystal from '../../assets/crystal.svg';
+import './style.css';
 
 const Home = () => (
   <div class="home">

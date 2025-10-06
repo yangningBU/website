@@ -1,5 +1,5 @@
 /* Import Fields Font in Semi-bold */
-@import url("../../style/fonts.css");
+@import url("../../fonts.css");
 
 .home {
   text-align: center;
@@ -10,6 +10,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+	margin-top: 16vh;
 }
 
 .home h1 {

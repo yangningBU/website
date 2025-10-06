@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "fields";
+  src: url("./assets/fields.woff2") format("woff2");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/muli.woff2") format('woff2');
+}
