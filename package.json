@@ -6,7 +6,7 @@
 		"build": "vite build",
 		"preview": "vite preview",
 		"serve": "serve -s dist",
-		"start": "[[ \"$NODE_ENV\" = \"production\" ]] && npm run serve || npm run dev"
+		"start": "[ \"$NODE_ENV\" = \"production\" ] && npm run serve || npm run dev"
 	},
 	"dependencies": {
 		"@fortawesome/fontawesome-svg-core": "^7.1.0",
@@ -15,13 +15,13 @@
 		"@fortawesome/react-fontawesome": "^3.1.0",
 		"preact": "^10.26.9",
 		"preact-iso": "^2.11.0",
-		"preact-render-to-string": "^6.6.2"
+		"preact-render-to-string": "^6.6.2",
+    "vite": "^7.0.4"
 	},
 	"devDependencies": {
 		"@preact/preset-vite": "^2.10.2",
 		"eslint": "^9.37.0",
-		"eslint-config-preact": "^2.0.0",
-		"vite": "^7.0.4"
+		"eslint-config-preact": "^2.0.0"
 	},
 	"eslintConfig": {
 		"extends": "preact"
