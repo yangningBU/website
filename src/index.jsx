@@ -8,8 +8,8 @@ import './style.css';
 // Instantiate icon library
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import { faPaperPlane, faFilePdf, faVolumeUp } from '@fortawesome/free-solid-svg-icons';
-library.add(fab, faPaperPlane, faFilePdf, faVolumeUp);
+import { faPaperPlane, faFileInvoice, faVolumeUp } from '@fortawesome/free-solid-svg-icons';
+library.add(fab, faPaperPlane, faFileInvoice, faVolumeUp);
 
 export function App() {
 	return (

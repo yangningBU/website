@@ -34,7 +34,7 @@ const SiteLinks = () => (
     </li>
     <li>
       <a href="#" onClick={openPDF} target="download">
-        <Icon icon="file-pdf" />
+        <Icon icon="file-invoice" />
         <span class="label">Resume</span>
       </a>
     </li>
