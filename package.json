@@ -1,9 +1,10 @@
 {
   "private": true,
   "name": "website",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
+    "heroku-postbuild": "npm run build",
     "start": "[[ \"$NODE_ENV\" = \"production\" ]] && npm run serve || npm run dev",
     "build": "preact build",
     "serve": "serve -s build",
