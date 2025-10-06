@@ -14,9 +14,8 @@
 		"@fortawesome/free-solid-svg-icons": "^7.1.0",
 		"@fortawesome/react-fontawesome": "^3.1.0",
 		"preact": "^10.26.9",
-		"preact-cli": "^3.5.1",
 		"preact-iso": "^2.11.0",
-		"preact-render-spy": "^1.3.0"
+		"preact-render-to-string": "^6.6.2"
 	},
 	"devDependencies": {
 		"@preact/preset-vite": "^2.10.2",
