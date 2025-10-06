@@ -1,15 +1,33 @@
-# `create-preact`
+# <img align="left" width="100" height="100" alt="Pink Crystal Icon" src="https://s3.us-west-2.amazonaws.com/yonatanlaurence.com/crystal-logo-raspberry-cream-2022_07_20.png"> Yonatan Laurence
+Website App at www.yonatanlaurence.com
 
-<h2 align="center">
-  <img height="256" width="256" src="./src/assets/preact.svg">
-</h2>
+I went from $12/mo to $7/mo and managing almost no infrastructure when moving from AWS EC2 to Heroku. The custom domain required moving from Free to Hobby (hence the $7).
 
-<h3 align="center">Get started using Preact and Vite!</h3>
+I'm using [Vite+Preact](https://github.com/preactjs/create-preact), which is a fun lightweight version of react that's almost identical in DSL.
 
-## Getting Started
+## CLI Commands
 
--   `npm run dev` - Starts a dev server at http://localhost:5173/
+``` bash
+# install dependencies
+npm install
 
--   `npm run build` - Builds for production, emitting to `dist/`
+# serve with hot reload
+npm run dev
 
--   `npm run preview` - Starts a server at http://localhost:4173/ to test production build locally
+# build for production
+npm run build
+
+# test the production build locally
+npm run serve
+
+# run the server environmentally aware
+npm run start
+```
+
+
+## Deploy to Heroku
+Heroku automatically builds master b/c it's connected to Github directly.
+
+```bash
+git push origin master
+```
