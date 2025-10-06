@@ -1,8 +1,8 @@
 node_modules
 /build
+/dist
 /*.log
 *.lock
 .DS_Store
 *.swp
 *.swo
-package-lock.json
