@@ -18,7 +18,7 @@
 		"preact-iso": "^2.11.0",
 		"preact-render-to-string": "^6.6.2",
 		"serve": "^14.2.5",
-		"vite": "^7.0.4"
+		"vite": "^7.1.11"
 	},
 	"devDependencies": {
 		"eslint": "^9.37.0",
