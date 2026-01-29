@@ -1,1 +1,1 @@
-web: npm run start
+web: ruby -run -e httpd -p $PORT .

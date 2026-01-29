@@ -1,6 +1,6 @@
 @font-face {
   font-family: "fields";
-  src: url("./assets/fields.woff2") format("woff2");
+  src: url("/fields.woff2") format("woff2");
   font-display: auto;
   font-style: normal;
   font-weight: 600;
@@ -11,5 +11,5 @@
   font-family: 'Muli';
   font-style: normal;
   font-weight: 400;
-  src: url("./assets/muli.woff2") format('woff2');
+  src: url("/muli.woff2") format('woff2');
 }
