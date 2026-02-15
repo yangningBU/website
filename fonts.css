@@ -13,3 +13,11 @@
   font-weight: 400;
   src: url("/muli.woff2") format('woff2');
 }
+
+@font-face {
+  font-family: 'SuezOne';
+  font-style: normal;
+  font-weight: 600;
+  src: url("/suez-one.ttf") format('truetype');
+  font-display: swap;
+}
