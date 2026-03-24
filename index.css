@@ -22,6 +22,7 @@ html, body {
 
 :root {
   --crystal-pink: #D486B8;
+  --crystal-blue: #00a4bb;
   --grey: #444;
 }
 
@@ -58,35 +59,62 @@ a:hover {
   flex-direction: column;
 }
 
-#name {
-  display: block;
-  width: 300px;
-  margin: -3rem 0 -1rem 0;
-}
-#name img {
-  width: 100%;
-}
-
 .logo {
   width: 160px;
 }
 
-.pronunciation {
-  font-family: serif;
-  font-size: 1em;
-  margin-top: 0;
+.logo-with-text {
+  width: 420px;
 }
 
+#english {
+  font-family: "fields", sans-serif;
+  font-weight: 600;
+  font-size: 2.5em;
+  color: var(--crystal-pink);
+}
+
+#hebrew {
+  font-family: "SuezOne", serif;
+  font-weight: 400;
+  font-size: 2.5em;
+  color: var(--crystal-blue);
+}
+
+#editable {
+  display: none;
+}
+#compact {
+  display: flex;
+}
+
+@media(max-width: 599px) {
+  #editable {
+    display: none;
+  }
+  #compact {
+    display: flex;
+  }
+}
 
 @media(min-width: 600px) {
+  #compact {
+    display: none;
+  }
+  #editable {
+    display: flex;
+  }
+
   #name {
     flex-direction: row;
   }
   #name img {
     margin-right: 10px;
   }
+  #english {
+    margin-left: -50px;
+  }
 }
-
 
 /* Links */
 
@@ -95,7 +123,7 @@ a:hover {
   flex-wrap: wrap;
   justify-content: center;
   padding: 0;
-  margin-top: 0;
+  margin-top: 2rem;
 }
 
 #links li {
@@ -112,6 +140,15 @@ a:hover {
   color: var(--crystal-pink);
 }
 
+#links li.blue a {
+  color: var(--crystal-blue);
+}
+
+#links li a:focus {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
 #links li a .label {
   color: var(--grey);
 }
@@ -124,14 +161,21 @@ a:hover {
   color: var(--crystal-pink);
 }
 
-@media screen and (min-width: 350px) {
-  #links {
-    width: 300px;
-  }
+#links li.blue a:hover .label {
+  color: var(--crystal-blue);
 }
 
-@media screen and (min-width: 450px) {
+@media(max-width: 460px) {
   #links {
-    width: 420px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    row-gap: 1.2rem;
+    column-gap: 0.2rem;
+  }
+  #links li {
+    grid-template-columns: 1fr;
+    width: 130px;
+    place-items: center;
   }
 }
