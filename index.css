@@ -21,7 +21,7 @@ html, body {
 }
 
 :root {
-  --crystal-pink: #D486B8;
+  --crystal-blue: #00a4bb;
   --grey: #444;
 }
 
@@ -35,7 +35,7 @@ a {
 }
 
 a:hover {
-  color: var(--crystal-pink);
+  color: var(--crystal-blue);
   cursor: pointer;
 }
 
@@ -112,7 +112,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: var(--crystal-pink);
+  color: var(--crystal-blue);
 }
 
 .links li a .label {
@@ -124,7 +124,7 @@ a:hover {
 }
 
 .links li a:hover .label {
-  color: var(--crystal-pink);
+  color: var(--crystal-blue);
 }
 
 @media screen and (min-width: 350px) {
